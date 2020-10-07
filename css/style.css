@@ -1,0 +1,459 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    min-height: 688px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(281.63deg, #FFDFAD 29.42%, rgba(255, 255, 255, 0.85) 66.79%);
+}
+.container{
+    position: relative;
+    margin: 0 215px;
+}
+
+.header-logo {
+    margin-top: 15px;
+    max-width: 98px;
+}
+
+.header-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.city-promo {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.city {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #633C00;
+}
+
+.phone-link {
+    margin-left: 25px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    /* text-align: right; */
+    color: #633C00;
+    text-decoration: none;
+}
+
+.menu-div {
+    position: absolute;
+    right: 0;
+}
+
+.menu-link {
+    padding-right: 41px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: right;
+    text-decoration-line: none;
+    color: #000000;
+}
+
+.menu-link:first-child {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #000000;
+}
+.menu-link:last-child {
+    padding-right: 0;
+}
+
+.menu-link:hover {
+    opacity: 0.6;
+}
+
+.header-text {
+    max-width: 553px;
+    margin-top: 87px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 61px;
+    color: #000000;
+}
+
+.header-descr {
+    max-width: 553px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.btn-header {
+    margin-top: 37px;
+    width: 250px;
+    height: 55px;
+    background: linear-gradient(90deg, #FFE03E 0%, #F3B01F 100%);
+    border: 0.5px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+
+.tree-img {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    position: absolute;
+    right: 0;  
+}
+
+/* start section about us */
+
+.about-us {
+    min-height: 517px;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(278.53deg, rgba(255, 255, 255, 0.85) 27.04%, #FFDFAD 70.89%);
+}
+
+.about-us-subheader {
+    position: absolute;
+    font-weight: 500;
+    font-size: 100px;
+    color: rgba(209, 145, 47, 0.06);
+    margin-top: 5px;
+    
+}
+.text-about-us {
+    position: absolute;
+    margin-top: 74px;
+    font-weight: 500;
+    font-size: 30px;
+    color: #000000;
+    
+    
+}
+.about-us-text-img {
+    padding-top: 139px;
+}
+.about-us-descr {
+    position: absolute;
+    left: 0;
+    max-width: 570px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+.about-us-img {
+    position: absolute;
+    right: 0;
+}
+ /* end section about us*/
+
+ /* start section news */
+
+.news {
+    min-height: 771px;
+}
+.cards-news {
+    padding-top: 124px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card {
+    width: 370px;
+    height: 530px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 30px; 
+}
+.card-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.card-header {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.card-descr {
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+}
+
+.date {
+    padding-top: 18px;
+    font-weight: 300;
+    font-size: 12px;
+    text-align: center;
+    color: #000000;
+}
+
+.card-btn {
+    display: block;
+    margin: 30px auto;
+    width: 250px;
+    height: 55px;
+    background: #FFFFFF;
+    border: 2px solid #F3B01F;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.read-news {
+    display: block;
+    margin: 50px auto;
+}
+ /* end section news */
+
+ /* start section support us */
+.support-us {
+    padding-top: 60px;
+    min-height: 402px;
+}
+
+.image-blocks {
+    padding-top: 166px;
+}
+
+.block-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 23px;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot:first-child {
+    width: 15px;
+    height: 15px;
+    background: #D1912F;
+    border-radius: 50%;
+}
+.dot {
+    margin-left: 10px;
+    margin-top: 10px;    
+    width: 11px;
+    height: 11px;
+    background: #F3B01F;    
+    border-radius: 50%;
+    margin-bottom: 62px;
+}
+  /* end section support us */
+
+/* start section fonds */
+
+.fonds {
+    min-height: 560px;
+    background: #FFFAEE;
+}
+
+.fonds-texts {
+    padding-top: 50px;
+}
+.subheader-fonts {
+    font-weight: 500;
+    font-size: 35px;
+    color: #000000;
+}
+
+.fonds-text {
+    margin-top: 57px;
+    max-width: 636px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #000000;
+}
+
+.fonds-btn {
+    margin-top: 57px;
+    margin-bottom: 101px;
+}
+
+.fond {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fond-image {
+    position: absolute;
+    right: 0;
+}
+
+/* end section fonds */
+
+/* start section team */
+
+.team {
+    min-height: 1200px;
+}
+
+.blocks-team {
+    padding-top: 173px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.block-team {
+    width: 370px;
+    height: 355px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    border: 2px solid #F3B01F;
+}
+.photo-img {
+    display: block;
+    margin: 16px auto;
+}
+
+.name-surname {
+    margin-top: 32px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.proffesion {
+    margin-top: 18px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 31px;
+}
+
+.forms {
+    margin: 60px auto;
+    width: 1000px;
+    height: 550px;
+    background: #FFFAEE;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+.header-form {
+    padding-top: 46px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    color: #000000;
+    text-align: center;
+}
+.text-form {
+    padding-top: 16px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.div-item {
+    margin: 27px auto;
+    width: 570px;
+    height: 60px;
+    background: #FFFFFF;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+.form-item {
+    margin: 18px 23px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    color: #929292;
+    border: none;
+    background: #FFFFFF;
+}
+.comment{
+    margin: 27px auto;
+    width: 570px;
+    height: 110px;
+    background: #FFFFFF;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px; 
+}
+
+.btn-form{
+    display: block;
+    margin: 37px auto;
+}
+/* end section team */
+
+
+/* start section contacts */
+
+.contacts {
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(278.53deg, rgba(255, 255, 255, 0.85) 27.04%, #FFDFAD 70.89%);
+    min-height: 595px;
+}
+.contact-descr {
+    padding-top: 160px;
+    padding-bottom: 80px;
+}
+.contacts-subtitle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: #000000;
+    margin-top: 59px;
+}
+.contacts-block {
+    display: flex;
+    justify-content: space-between; 
+}
+.map-img {
+    margin-top: 219px;
+}
+/* end section contacts */
+
+/* start footer*/
+
+.footers {
+    min-height: 60px;
+    background: #633C00;
+}
+
+.footer-text {
+    padding-top: 19px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+/* end footer */
